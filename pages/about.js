@@ -52,10 +52,10 @@ export default function About() {
               <div className="columns">
                 <div className="column is-1"></div>
                 <div className="column">
-                  <div class="card">
-                    <div class="card-image">
+                  <div className="card">
+                    <div className="card-image">
                       <figure
-                        class="image is-5by3"
+                        className="image is-5by3"
                         style={{
                           backgroundImage: "url(/images/leila.jpg)",
                           backgroundPosition: "center",
@@ -64,12 +64,12 @@ export default function About() {
                         }}
                       ></figure>
                     </div>
-                    <div class="card-content">
-                      <div class="content">
-                        <p class="title is-4 has-text-primary">
+                    <div className="card-content">
+                      <div className="content">
+                        <p className="title is-4 has-text-primary">
                           Leila Falkenberg
                         </p>
-                        <p class="subtitle is-6">Chief Creative Officer </p>
+                        <p className="subtitle is-6">Chief Creative Officer </p>
 
                         <div className="content ml-4">
                           <p>
@@ -88,10 +88,10 @@ export default function About() {
                   </div>
                 </div>
                 <div className="column">
-                  <div class="card">
-                    <div class="card-image">
+                  <div className="card">
+                    <div className="card-image">
                       <figure
-                        class="image is-5by3"
+                        className="image is-5by3"
                         style={{
                           backgroundImage: "url(/images/katarina.jpg)",
                           backgroundPosition: "center",
@@ -100,12 +100,14 @@ export default function About() {
                         }}
                       ></figure>
                     </div>
-                    <div class="card-content">
-                      <div class="content">
-                        <p class="title is-4 has-text-primary">
+                    <div className="card-content">
+                      <div className="content">
+                        <p className="title is-4 has-text-primary">
                           Katarina Strandberg
                         </p>
-                        <p class="subtitle is-6">Chief Executive Officer </p>
+                        <p className="subtitle is-6">
+                          Chief Executive Officer{" "}
+                        </p>
 
                         <div className="content ml-4">
                           <p>
@@ -147,10 +149,10 @@ export default function About() {
               <div className="columns">
                 <div className="column is-1"></div>
                 <div className="column">
-                  <div class="card">
-                    <div class="card-image">
+                  <div className="card">
+                    <div className="card-image">
                       <figure
-                        class="image is-5by3"
+                        className="image is-5by3"
                         style={{
                           backgroundImage: "url(/images/jorgen.jpeg)",
                           backgroundPosition: "center",
@@ -159,21 +161,23 @@ export default function About() {
                         }}
                       ></figure>
                     </div>
-                    <div class="card-content">
-                      <div class="content">
-                        <p class="title is-4 has-text-primary">
+                    <div className="card-content">
+                      <div className="content">
+                        <p className="title is-4 has-text-primary">
                           Jörgen Bergqvist
                         </p>
-                        <p class="subtitle is-6 has-text-dark">Board Member </p>
+                        <p className="subtitle is-6 has-text-dark">
+                          Board Member{" "}
+                        </p>
                       </div>
                     </div>
                   </div>
                 </div>
                 <div className="column">
-                  <div class="card">
-                    <div class="card-image">
+                  <div className="card">
+                    <div className="card-image">
                       <figure
-                        class="image is-5by3"
+                        className="image is-5by3"
                         style={{
                           backgroundImage: "url(/images/petter.jpeg)",
                           backgroundPosition: "center",
@@ -182,21 +186,23 @@ export default function About() {
                         }}
                       ></figure>
                     </div>
-                    <div class="card-content">
-                      <div class="content">
-                        <p class="title is-4 has-text-primary">
+                    <div className="card-content">
+                      <div className="content">
+                        <p className="title is-4 has-text-primary">
                           Petter Ljungberg
                         </p>
-                        <p class="subtitle is-6 has-text-dark">Board Member </p>
+                        <p className="subtitle is-6 has-text-dark">
+                          Board Member{" "}
+                        </p>
                       </div>
                     </div>
                   </div>
                 </div>
                 <div className="column">
-                  <div class="card">
-                    <div class="card-image">
+                  <div className="card">
+                    <div className="card-image">
                       <figure
-                        class="image is-5by3"
+                        className="image is-5by3"
                         style={{
                           backgroundImage: "url(/images/ulf.jpeg)",
                           backgroundPosition: "center",
@@ -205,19 +211,23 @@ export default function About() {
                         }}
                       ></figure>
                     </div>
-                    <div class="card-content">
-                      <div class="content">
-                        <p class="title is-4 has-text-primary">Ulf Säther</p>
-                        <p class="subtitle is-6 has-text-dark">Board Member </p>
+                    <div className="card-content">
+                      <div className="content">
+                        <p className="title is-4 has-text-primary">
+                          Ulf Säther
+                        </p>
+                        <p className="subtitle is-6 has-text-dark">
+                          Board Member{" "}
+                        </p>
                       </div>
                     </div>
                   </div>
                 </div>
                 <div className="column">
-                  <div class="card">
-                    <div class="card-image">
+                  <div className="card">
+                    <div className="card-image">
                       <figure
-                        class="image is-5by3"
+                        className="image is-5by3"
                         style={{
                           backgroundImage: "url(/images/kieran.jpeg)",
                           backgroundPosition: "center",
@@ -226,12 +236,14 @@ export default function About() {
                         }}
                       ></figure>
                     </div>
-                    <div class="card-content">
-                      <div class="content">
-                        <p class="title is-4 has-text-primary">
+                    <div className="card-content">
+                      <div className="content">
+                        <p className="title is-4 has-text-primary">
                           Kieran Youngman
                         </p>
-                        <p class="subtitle is-6 has-text-dark">Board Member </p>
+                        <p className="subtitle is-6 has-text-dark">
+                          Board Member{" "}
+                        </p>
                       </div>
                     </div>
                   </div>
@@ -248,10 +260,10 @@ export default function About() {
               <div className="columns">
                 <div className="column is-1"></div>
                 <div className="column">
-                  <div class="card">
-                    <div class="card-image">
+                  <div className="card">
+                    <div className="card-image">
                       <figure
-                        class="image is-5by3"
+                        className="image is-5by3"
                         style={{
                           backgroundImage: "url(/images/yasmina.jpeg)",
                           backgroundPosition: "center",
@@ -260,12 +272,12 @@ export default function About() {
                         }}
                       ></figure>
                     </div>
-                    <div class="card-content">
-                      <div class="content">
-                        <p class="title is-4 has-text-primary">
+                    <div className="card-content">
+                      <div className="content">
+                        <p className="title is-4 has-text-primary">
                           Yasmina Backström
                         </p>
-                        <p class="subtitle is-6 has-text-dark">
+                        <p className="subtitle is-6 has-text-dark">
                           Head of Communications, Swedish-American Chamber of
                           Commerce, New York{" "}
                         </p>
@@ -274,10 +286,10 @@ export default function About() {
                   </div>
                 </div>
                 <div className="column">
-                  <div class="card">
-                    <div class="card-image">
+                  <div className="card">
+                    <div className="card-image">
                       <figure
-                        class="image is-5by3"
+                        className="image is-5by3"
                         style={{
                           backgroundImage: "url(/images/gonan.jpeg)",
                           backgroundPosition: "center",
@@ -286,12 +298,12 @@ export default function About() {
                         }}
                       ></figure>
                     </div>
-                    <div class="card-content">
-                      <div class="content">
-                        <p class="title is-4 has-text-primary">
+                    <div className="card-content">
+                      <div className="content">
+                        <p className="title is-4 has-text-primary">
                           Gonan Premfors
                         </p>
-                        <p class="subtitle is-6 has-text-dark">
+                        <p className="subtitle is-6 has-text-dark">
                           Co-Founder Gozamm, Coach & International Business
                           Leader{" "}
                         </p>
@@ -300,10 +312,10 @@ export default function About() {
                   </div>
                 </div>
                 <div className="column">
-                  <div class="card">
-                    <div class="card-image">
+                  <div className="card">
+                    <div className="card-image">
                       <figure
-                        class="image is-5by3"
+                        className="image is-5by3"
                         style={{
                           backgroundImage: "url(/images/james.jpeg)",
                           backgroundPosition: "center",
@@ -312,12 +324,12 @@ export default function About() {
                         }}
                       ></figure>
                     </div>
-                    <div class="card-content">
-                      <div class="content">
-                        <p class="title is-4 has-text-primary">
+                    <div className="card-content">
+                      <div className="content">
+                        <p className="title is-4 has-text-primary">
                           James Rosenstein{" "}
                         </p>
-                        <p class="subtitle is-6 has-text-dark">
+                        <p className="subtitle is-6 has-text-dark">
                           Consultant CSR, Corporate Communications, Business
                           Development{" "}
                         </p>
