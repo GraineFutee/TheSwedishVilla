@@ -9,11 +9,7 @@ import { motion, AnimatePresence } from "framer-motion";
 
 export default function About() {
   return (
-    <motion.div
-      initial={{ y: "200vh" }}
-      animate={{ y: 0 }}
-      transition={{ type: "spring", stiffness: 40 }}
-    >
+    <>
       <section className="hero is-primary is-bold">
         <div
           style={{
@@ -31,7 +27,7 @@ export default function About() {
           </div>
         </div>
       </section>
-      <section className="hero is-light is-bold">
+      <section className="hero  is-bold">
         <div
           style={{
             boxShadow:
@@ -39,7 +35,10 @@ export default function About() {
           }}
         >
           <div className="hero-body my-6">
-            <div className="container">
+            <div
+              className="container"
+              style={{ marginLeft: "15%", marginRight: "15%" }}
+            >
               <h3 className="title is-3">Our founders</h3>
               <p className="my-3 mx-6">
                 The Villa was passionately co-founded by business lawyer
@@ -135,7 +134,10 @@ export default function About() {
           }}
         >
           <div className="hero-body my-6">
-            <div className="container">
+            <div
+              className="container"
+              style={{ marginLeft: "15%", marginRight: "15%" }}
+            >
               <h3 className="title is-3">Board members</h3>
               <h4 className="title is-4">Board of Directors</h4>
               <p className="my-3 mx-6">
@@ -390,7 +392,7 @@ export default function About() {
           </div>
         </div>
       </section>
-      <section className="hero is-danger is-bold">
+      <section className="hero  is-bold">
         <div
           style={{
             boxShadow:
@@ -398,7 +400,10 @@ export default function About() {
           }}
         >
           <div className="hero-body my-6">
-            <div className="container">
+            <div
+              className="container"
+              style={{ marginLeft: "15%", marginRight: "15%" }}
+            >
               <h3 className="title is-3">Core Values</h3>
               <div className="content ml-4">
                 <h4 className="title is-4">
@@ -503,6 +508,6 @@ export default function About() {
           </div>
         </div>
       </section>
-    </motion.div>
+    </>
   );
 }

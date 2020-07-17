@@ -32,11 +32,8 @@ export default function Home() {
   }, [changingTitle]);
 
   return (
-    <motion.div
-      initial={{ y: "200vh" }}
-      animate={{ y: 0 }}
-      transition={{ type: "spring", stiffness: 40 }}
-    >
+    <>
+      {" "}
       <section
         className="hero is-dark is-fullheight-with-navbar is-bold"
         style={{
@@ -432,7 +429,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-    </motion.div>
+    </>
     // <div classNameName="container">
     //   <Head>
     //     <title>Create Next App</title>

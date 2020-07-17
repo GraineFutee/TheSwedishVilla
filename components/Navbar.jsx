@@ -52,7 +52,9 @@ export default function Navbar() {
               About us
             </a>
 
-            <a className="navbar-item">Contact</a>
+            <a className="navbar-item" href="/contact">
+              Contact
+            </a>
           </div>
         </div>
       </nav>
