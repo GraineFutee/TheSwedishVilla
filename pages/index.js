@@ -5,10 +5,6 @@ import { faKey } from "@fortawesome/free-solid-svg-icons";
 import { faLayerGroup } from "@fortawesome/free-solid-svg-icons";
 import { faSlidersH } from "@fortawesome/free-solid-svg-icons";
 
-import { faInstagram } from "@fortawesome/free-brands-svg-icons";
-import { faVimeo } from "@fortawesome/free-brands-svg-icons";
-import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
-
 import { motion, AnimatePresence } from "framer-motion";
 import { useState, useEffect } from "react";
 
@@ -416,25 +412,6 @@ export default function Home() {
                 <div className="column is-3"></div>
               </div>
             </div>
-          </div>
-        </div>
-      </section>
-      <section className="hero is-small is-dark is-bold">
-        <div className="hero-body">
-          <div className="has-text-centered">
-            <FontAwesomeIcon
-              icon={faInstagram}
-              className="mb-5 has-text-primary mx-3 my-2 is-size-3"
-            />
-            <FontAwesomeIcon
-              icon={faVimeo}
-              className="mb-5 has-text-primary mx-3 my-2 is-size-3"
-            />
-            <FontAwesomeIcon
-              icon={faLinkedin}
-              className="mb-5 has-text-primary mx-3 my-2 is-size-3"
-            />
-            <p>&copy; 2020 The Swedish Villa</p>
           </div>
         </div>
       </section>

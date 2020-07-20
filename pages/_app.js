@@ -1,12 +1,14 @@
 // import App from 'next/app'
 import "../src/css/main.css";
 import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
 
 function MyApp({ Component, pageProps }) {
   return (
     <>
       <Navbar />
       <Component {...pageProps} />
+      <Footer />
     </>
   );
 }

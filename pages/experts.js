@@ -7,24 +7,19 @@ import { faSlidersH } from "@fortawesome/free-solid-svg-icons";
 
 import { motion } from "framer-motion";
 
+import Header from "../components/Header";
+
 export default function Experts() {
   return (
     <>
-      <section className="hero is-primary is-bold is-small">
-        <div
-          style={{
-            boxShadow:
-              "0 4px 8px 0 rgba(0, 0, 0, 0.2),0 6px 20px 0 rgba(0, 0, 0, 0.19)",
-          }}
-        >
-          <div className="hero-body">
-            <div className="container is-fluid mx-6">
-              <h1 className="title is-1">Communication Experts & Creatives</h1>
-              <p className="subtitle">Creatives fields</p>
-            </div>
-          </div>
-        </div>
-      </section>
+      <Header
+        title="Communication Experts & Creatives"
+        subtitle="List of creatives fields"
+        breadcrumb={[
+          { path: "/", title: "Home" },
+          { path: "/experts", title: "Communication Experts & Creatives" },
+        ]}
+      />
       <section className="hero">
         <div
           style={{
