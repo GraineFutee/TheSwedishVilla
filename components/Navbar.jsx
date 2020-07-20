@@ -35,7 +35,9 @@ export default function Navbar() {
 
           <div className="navbar-end">
             <div className="navbar-item has-dropdown is-hoverable">
-              <a className="navbar-link">Communication Experts & Creatives</a>
+              <a className="navbar-link" href="/experts">
+                Communication Experts & Creatives
+              </a>
 
               <div className="navbar-dropdown">
                 <a className="navbar-item">Conceptual Creatives</a>

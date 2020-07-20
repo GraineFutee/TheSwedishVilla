@@ -24,7 +24,11 @@
     "/_polyfills": [
       "static/runtime/polyfills.js"
     ],
-    "/about": [
+    "/contact": [
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
+    ],
+    "/experts": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ],

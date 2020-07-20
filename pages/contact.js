@@ -58,9 +58,9 @@ export default function Contact() {
                 <div className="column is-6">
                   <div className="columns">
                     <div className="column is-3">
-                      <figure class="image is-128x128">
+                      <figure className="image is-128x128">
                         <img
-                          class="is-rounded"
+                          className="is-rounded"
                           src="https://bulma.io/images/placeholders/128x128.png"
                         />
                       </figure>
@@ -92,9 +92,9 @@ export default function Contact() {
                 <div className="column is-6">
                   <div className="columns">
                     <div className="column is-3">
-                      <figure class="image is-128x128">
+                      <figure className="image is-128x128">
                         <img
-                          class="is-rounded"
+                          className="is-rounded"
                           src="https://bulma.io/images/placeholders/128x128.png"
                         />
                       </figure>
@@ -126,9 +126,9 @@ export default function Contact() {
                 <div className="column is-6">
                   <div className="columns">
                     <div className="column is-3">
-                      <figure class="image is-128x128">
+                      <figure className="image is-128x128">
                         <img
-                          class="is-rounded"
+                          className="is-rounded"
                           src="https://bulma.io/images/placeholders/128x128.png"
                         />
                       </figure>
@@ -160,9 +160,9 @@ export default function Contact() {
                 <div className="column is-6">
                   <div className="columns">
                     <div className="column is-3">
-                      <figure class="image is-128x128">
+                      <figure className="image is-128x128">
                         <img
-                          class="is-rounded"
+                          className="is-rounded"
                           src="https://bulma.io/images/placeholders/128x128.png"
                         />
                       </figure>
@@ -194,9 +194,9 @@ export default function Contact() {
                 <div className="column is-6">
                   <div className="columns">
                     <div className="column is-3">
-                      <figure class="image is-128x128">
+                      <figure className="image is-128x128">
                         <img
-                          class="is-rounded"
+                          className="is-rounded"
                           src="https://bulma.io/images/placeholders/128x128.png"
                         />
                       </figure>
@@ -228,9 +228,9 @@ export default function Contact() {
                 <div className="column is-6">
                   <div className="columns">
                     <div className="column is-3">
-                      <figure class="image is-128x128">
+                      <figure className="image is-128x128">
                         <img
-                          class="is-rounded"
+                          className="is-rounded"
                           src="https://bulma.io/images/placeholders/128x128.png"
                         />
                       </figure>
@@ -262,9 +262,9 @@ export default function Contact() {
                 <div className="column is-6">
                   <div className="columns">
                     <div className="column is-3">
-                      <figure class="image is-128x128">
+                      <figure className="image is-128x128">
                         <img
-                          class="is-rounded"
+                          className="is-rounded"
                           src="https://bulma.io/images/placeholders/128x128.png"
                         />
                       </figure>
@@ -296,9 +296,9 @@ export default function Contact() {
                 <div className="column is-6">
                   <div className="columns">
                     <div className="column is-3">
-                      <figure class="image is-128x128">
+                      <figure className="image is-128x128">
                         <img
-                          class="is-rounded"
+                          className="is-rounded"
                           src="https://bulma.io/images/placeholders/128x128.png"
                         />
                       </figure>
